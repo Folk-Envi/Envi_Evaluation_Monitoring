@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 100%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: navy;
+}
+body{
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  background: rgb(177, 241, 228)
+  
+}
+.container{
+  max-width: 90%;
+  width: 60%;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+.container h1{
+  border:  1px solid rgb(185, 253, 176);
+  color: rgb(24, 92, 7);
+  border-radius: 0.5em;
+  padding: 10px 0;
+  background: #72e68f;
+  
+
+}
+body .container .work{
+  border: 1px solid whitesmoke;
+  border-radius: 0.5em;
+  background: #eef4f5;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 20px;
+}
+.container .work a{
+  color: #42caad;
+  
+}
+.container .sub_title{
+  border: 1px solid rgb(249, 250, 244);
+  border-radius: 0.5em;
+  margin: 20px 0;
+  padding: 10px 15px;
+  background: #99aef1;
+  
+}
+.container span{
+  font-size: 25px;
+  color: #f1f5f7;
+}
+.container_dashboard{
+  width: 1000px;
+  background: #fff;
+  padding: 30px 30px;
+  border-radius: 0.5em;
+  text-align: center;
+  display: block;
+  
+}
+.container_dashboard .sub_title{
+  border: 1px solid rgb(249, 250, 244);
+  border-radius: 0.5em;
+  margin: 20px 0;
+  padding: 10px 15px;
+  background: #a5bac2;
+}
+.sub_title span{
+  font-size: 25px;
+  color: #f1f5f7;
+}
+body .container_dashboard .dashboard{
+  border: 1px solid rgb(240, 220, 39);
+  border-radius: 0.5em;
+}
+body .container_dashboard .dashboard_chem{
+  border: 1px solid rgb(240, 79, 39);
+  border-radius: 0.5em;
+}
+
+.dropbtn {
+  
+  color: rgb(14, 13, 13);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5em;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #a4e7f0;
+}
+
+.container .back{
+  text-align: left;
+}
+.container .back a{
+ color: #ec5324;
+}
+
+
