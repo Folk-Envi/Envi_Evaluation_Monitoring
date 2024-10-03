@@ -10,7 +10,7 @@
       font-size: 1.3em; /* ลดขนาดฟอนต์สำหรับหน้าจอเล็ก */
   }
 
-  p {
+  a {
       font-size: 0.7em; /* ลดขนาดฟอนต์สำหรับหน้าจอเล็ก */
   }
 }
@@ -76,7 +76,7 @@ body .container .work{
 }
 .container .work a{
   color: #42caad;
-  font-size: 21px;
+  
   
 }
 .container .sub_title{
