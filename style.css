@@ -34,7 +34,7 @@ body{
   
 }
 .container{
-  max-width: 1200px; /* ขนาดสูงสุด */
+  max-width: 900px; /* ขนาดสูงสุด */
   width: 100%; /* ขนาดยืดหยุ่น */
   height: auto; /* ขนาดคงที่ */
   margin: auto; /* จัดกลาง */
@@ -42,6 +42,18 @@ body{
   padding: 25px 30px;
   border-radius: 5px;
   text-align: center;
+  
+}
+.container_dashboard{
+  width: 900px; /* ขนาดคงที่ */
+  height: auto; /* ขนาดคงที่ */
+  margin: auto; /* จัดกลาง */
+
+  background: #fff;
+  padding: 30px 30px;
+  border-radius: 0.5em;
+  text-align: center;
+  display: block;
   
 }
 .container h1{
@@ -64,6 +76,7 @@ body .container .work{
 }
 .container .work a{
   color: #42caad;
+  font-size: 17px;
   
 }
 .container .sub_title{
@@ -78,18 +91,7 @@ body .container .work{
   font-size: 25px;
   color: #f1f5f7;
 }
-.container_dashboard{
-  width: 900px; /* ขนาดคงที่ */
-  height: auto; /* ขนาดคงที่ */
-  margin: auto; /* จัดกลาง */
 
-  background: #fff;
-  padding: 30px 30px;
-  border-radius: 0.5em;
-  text-align: center;
-  display: block;
-  
-}
 .container_dashboard .sub_title{
   border: 1px solid rgb(249, 250, 244);
   border-radius: 0.5em;
