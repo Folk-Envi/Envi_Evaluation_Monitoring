@@ -1,5 +1,4 @@
 *{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -60,7 +59,8 @@ body{
   border:  1px solid rgb(185, 253, 176);
   color: rgb(24, 92, 7);
   border-radius: 0.5em;
-  padding: 10px 0;
+  padding: 10px 15px;
+  margin-bottom: 15px;
   background: #72e68f;
   
 
