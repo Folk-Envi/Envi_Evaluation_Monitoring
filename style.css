@@ -34,7 +34,8 @@ body{
   
 }
 .container{
-  width: 900px; /* ขนาดคงที่ */
+  max-width: 1200px; /* ขนาดสูงสุด */
+  width: 100%; /* ขนาดยืดหยุ่น */
   height: auto; /* ขนาดคงที่ */
   margin: auto; /* จัดกลาง */
   background: #fff;
