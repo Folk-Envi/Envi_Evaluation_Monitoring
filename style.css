@@ -41,6 +41,7 @@ body{
   padding: 25px 30px;
   border-radius: 5px;
   text-align: center;
+  display: block;
   
 }
 .container_dashboard{
@@ -120,12 +121,14 @@ body .container_dashboard .dashboard_chem{
   border: none;
   cursor: pointer;
   border-radius: 0.5em;
+  box-sizing: border-box;
   
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
+  box-sizing: border-box;
   
 }
 
