@@ -5,6 +5,25 @@
   box-sizing: border-box;
   color: navy;
 }
+@media (max-width: 768px) {
+  h1 {
+      font-size: 1.5em; /* ลดขนาดฟอนต์สำหรับหน้าจอเล็ก */
+  }
+
+  p {
+      font-size: 0.9em; /* ลดขนาดฟอนต์สำหรับหน้าจอเล็ก */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+      font-size: 1.2em; /* ลดขนาดฟอนต์สำหรับมือถือ */
+  }
+
+  a {
+      font-size: 0.8em; /* ลดขนาดฟอนต์สำหรับมือถือ */
+  }
+}
 body{
   margin: 0;
   height: auto;
@@ -15,7 +34,7 @@ body{
   
 }
 .container{
-  width: 1024px; /* ขนาดคงที่ */
+  width: 900px; /* ขนาดคงที่ */
   height: auto; /* ขนาดคงที่ */
   margin: auto; /* จัดกลาง */
   background: #fff;
@@ -59,10 +78,10 @@ body .container .work{
   color: #f1f5f7;
 }
 .container_dashboard{
-  width: 1024px; /* ขนาดคงที่ */
+  width: 900px; /* ขนาดคงที่ */
   height: auto; /* ขนาดคงที่ */
   margin: auto; /* จัดกลาง */
- 
+
   background: #fff;
   padding: 30px 30px;
   border-radius: 0.5em;
