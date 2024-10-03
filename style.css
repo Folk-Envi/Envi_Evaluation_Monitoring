@@ -8,7 +8,9 @@
   h1 {
       font-size: 1.3em; /* ลดขนาดฟอนต์สำหรับหน้าจอเล็ก */
   }
-
+  span{
+    font-size: 0.9em; /* ลดขนาดฟอนต์สำหรับมือถือ */
+  }
   a {
       font-size: 0.7em; /* ลดขนาดฟอนต์สำหรับหน้าจอเล็ก */
   }
@@ -16,12 +18,15 @@
 
 @media (max-width: 480px) {
   h1 {
-      font-size: 0.9em; /* ลดขนาดฟอนต์สำหรับมือถือ */
+      font-size: 0.8em; /* ลดขนาดฟอนต์สำหรับมือถือ */
   }
-
+  span{
+    font-size: 0.9em; /* ลดขนาดฟอนต์สำหรับมือถือ */
+  }
   a {
       font-size: 0.7em; /* ลดขนาดฟอนต์สำหรับมือถือ */
   }
+  
 }
 body{
   margin: 0;
@@ -73,7 +78,7 @@ body .container .work{
   padding: 10px 15px;
   margin-bottom: 15px;
   width: 100%;
-  font-size: 20px;
+  font-size: 18px;
 }
 .container .work a{
   color: #42caad;
@@ -89,7 +94,7 @@ body .container .work{
   
 }
 .container span{
-  font-size: 25px;
+  font-size: 10px;
   color: #f1f5f7;
 }
 
@@ -101,7 +106,7 @@ body .container .work{
   background: #a5bac2;
 }
 .sub_title span{
-  font-size: 25px;
+  font-size: 20px;
   color: #f1f5f7;
 }
 body .container_dashboard .dashboard{
@@ -117,7 +122,8 @@ body .container_dashboard .dashboard_chem{
   
   color: rgb(14, 13, 13);
   padding: 16px;
-  font-size: 16px;
+  font-size: 15px;
+  
   border: none;
   cursor: pointer;
   border-radius: 0.5em;
