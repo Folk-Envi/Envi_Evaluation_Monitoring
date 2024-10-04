@@ -50,9 +50,10 @@ body{
   max-width: 900px; /* ขนาดสูงสุด */
   width: 100%; /* ขนาดยืดหยุ่น */
   height: auto; /* ขนาดคงที่ */
-  margin: auto; /* จัดกลาง */
+  margin: 20px auto; /* จัดกลาง */
   background: #fff;
   padding: 25px 30px;
+  padding-top: 10px;
   border-radius: 5px;
   text-align: center;
   display: block;
@@ -75,7 +76,8 @@ body{
   color: rgb(24, 92, 7);
   border-radius: 0.5em;
   padding: 10px 15px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background: #72e68f;
   
 
