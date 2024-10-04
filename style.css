@@ -11,20 +11,30 @@
   span{
     font-size: 0.9em; /* ลดขนาดฟอนต์สำหรับมือถือ */
   }
+  .container .sub_title span{
+    font-size: 1em; /* ลดขนาดฟอนต์สำหรับมือถือ */
+  }
+  .container .back{
+    font-size: 0.8em; /* ลดขนาดฟอนต์สำหรับมือถือ */
+  }
+  
   a {
-      font-size: 0.7em; /* ลดขนาดฟอนต์สำหรับหน้าจอเล็ก */
+      font-size: 0.8em; /* ลดขนาดฟอนต์สำหรับหน้าจอเล็ก */
   }
 }
 
 @media (max-width: 480px) {
   h1 {
-      font-size: 0.8em; /* ลดขนาดฟอนต์สำหรับมือถือ */
+      font-size: 0.9em; /* ลดขนาดฟอนต์สำหรับมือถือ */
   }
   span{
     font-size: 0.9em; /* ลดขนาดฟอนต์สำหรับมือถือ */
   }
+  .container .span{
+    font-size: 0.9em; /* ลดขนาดฟอนต์สำหรับมือถือ */
+  }
   a {
-      font-size: 0.7em; /* ลดขนาดฟอนต์สำหรับมือถือ */
+      font-size: 1em; /* ลดขนาดฟอนต์สำหรับมือถือ */
   }
   
 }
@@ -75,10 +85,12 @@ body .container .work{
   border: 1px solid whitesmoke;
   border-radius: 0.5em;
   background: #eef4f5;
-  padding: 10px 15px;
   margin-bottom: 15px;
   width: 100%;
   font-size: 18px;
+  width: 80%;
+  margin: 15px auto;
+ 
 }
 .container .work a{
   color: #42caad;
