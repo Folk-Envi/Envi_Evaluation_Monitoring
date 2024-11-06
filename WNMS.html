@@ -33,9 +33,26 @@
         <div class="work">
             <i class="fa-solid fa-chart-pie" style="margin-right: 15px;"></i><a href="YearlyStatistics.html"  rel="noopener noreferrer">ข้อมูลสถิติรายปี 2563 - ปัจจุบัน</a>
         </div>
+        
+        <div class="work">
+            <i class="fa-solid fa-ship" style="margin-right: 15px;"></i><a href="http://wnms.port.co.th/WNMS/Login.aspx"  rel="noopener noreferrer" target="_blank">Waste Notification Management System</a>
+        </div>
         <div class="work">
             <i class="fa-solid fa-square-poll-horizontal" style="margin-right: 15px;"></i><a href="SurveyWaste.html"  rel="noopener noreferrer">การสำรวจเรือทิ้งของเสียตาม KPI</a>
         </div>
+
+        <div class="work">
+            <i class="fa-solid fa-file-pdf" style="margin-right: 15px;"></i><a href="https://drive.google.com/file/d/1YY4i7hgDK9qnIbcUl8K0bM7zdwaWcu9r/view?usp=sharing"  target="_blank" rel="noopener noreferrer">ประกาศ กทท. เรื่อง วิธีปฏิบัติเกี่ยวกับการจัดการของเสียจากเรือในเขตท่าเรือกรุงเทพ</a>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn" style="margin-bottom: 10px;"><i class="fa-solid fa-book" style="margin-right: 10px;"></i>เล่มคู่มือการจัดการของเสียจากเรือฯ</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="" target="_blank">ภาษาไทย</a>
+              <a href="" target="_blank">English Language</a>
+            </div>
+        </div>
+        <br>
 
         <div class="back">
             <i class="fa fa-arrow-circle-left" ><a style="margin-left: 5px;" href="index.html">Back</a></i>
@@ -43,4 +60,27 @@
         
     </div>
 </body>
+
+<script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+
 </html>
